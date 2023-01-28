@@ -38,7 +38,8 @@ class ViewController: UIViewController, UICollectionViewDelegate {
         Category(imagesCategory: "Take aways image", name: "Takeaways"),  
         Category(imagesCategory: "Grocery Image" , name: "Grocecy"),
         Category(imagesCategory: "Convience Image", name: "Convenience"),
-        Category(imagesCategory: "Pharmacy Image", name: "Pharmacy")
+        Category(imagesCategory: "Pharmacy Image", name: "Pharmacy"
+        )
     ]
     var orderType: [TypeOfOrder] = [
         TypeOfOrder(orderOfType: "Delivery",
