@@ -59,6 +59,8 @@ class ViewController: UIViewController, UICollectionViewDelegate {
         typeOfOrderCollectionView.showsHorizontalScrollIndicator = false
         categoryCollectionView.showsVerticalScrollIndicator = false
         categoryCollectionView.showsHorizontalScrollIndicator = false
+        productTableView.showsVerticalScrollIndicator = false
+        productTableView.showsHorizontalScrollIndicator = false
     }
     
     private func configureCategoryCV() {
