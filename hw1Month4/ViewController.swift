@@ -69,7 +69,7 @@ class ViewController: UIViewController, UICollectionViewDelegate {
         typeOfOrderCollectionView.delegate = self
         typeOfOrderCollectionView.register(UINib(nibName:
         String(describing: OrderTypeCollectionViewCell.self),
-        bundle: nil), forCellWithReuseIdentifier:    OrderTypeCollectionViewCell.reuseIdentifierForOrderType)
+        bundle: nil), forCellWithReuseIdentifier: OrderTypeCollectionViewCell.reuseIdentifierForOrderType)
         categoryCollectionView.register(UINib(nibName: String(
         describing: CategoryCollectionViewCell.self), bundle: nil),
         forCellWithReuseIdentifier: CategoryCollectionViewCell.reuseIdentifier)
